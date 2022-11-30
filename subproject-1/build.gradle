@@ -3,7 +3,22 @@ plugins {
     id 'application'
 }
 
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+}
+
+
 application {
     // Define the main class for the application.
     mainClass = 'com.aunsal.ds.App'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    useJUnitPlatform()
 }
