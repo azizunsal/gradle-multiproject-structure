@@ -15,7 +15,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.aunsal.ds.App'
+    mainClass = 'com.aunsal.gradle.app.App'
 }
 
 tasks.named('test') {

@@ -1,4 +1,4 @@
-package com.aunsal.gradle;
+package com.aunsal.gradle.app;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

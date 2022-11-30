@@ -1,4 +1,4 @@
-package com.aunsal.gradle;
+package com.aunsal.gradle.app;
 
 public class App {
     public static String sayHi() {
